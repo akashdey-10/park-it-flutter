@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.green,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Loginpage(),
+      home: LoginDemo(),
       debugShowCheckedModeBanner: false,
     );
   }
