@@ -98,7 +98,7 @@ class _LoginpageState extends State<Loginpage> {
                 child: RaisedButton(
                     color: Colors.green,
                     child: Text(
-                      'Sign In',
+                      'Sign Out',
                       style: TextStyle(fontSize: 32, color: Colors.white),
                     ),
                     onPressed: _emailController.text == "" ||
