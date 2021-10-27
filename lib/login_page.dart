@@ -36,7 +36,7 @@ class _LoginpageState extends State<Loginpage> {
         sharedPreferences.setString("token", jsonResponse['token']);
 
         Navigator.of(context).pushAndRemoveUntil(
-            MaterialPageRoute(builder: (BuildContext context) => Homepage()),
+            MaterialPageRoute(builder: (BuildContext context) => HomePage()),
             (Route<dynamic> route) => false);
       }
     } else {
