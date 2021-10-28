@@ -18,12 +18,13 @@ class _LoginDemoState extends State<LoginDemo> {
               padding: const EdgeInsets.only(top: 130.0),
               child: Center(
                 child: Container(
-                  width: 660,
-                  height: 330,
-                  /*decoration: BoxDecoration(
+                    width: 660,
+                    height: 330,
+
+                    /*decoration: BoxDecoration(
                         color: Colors.red,
                         borderRadius: BorderRadius.circular(50.0)),*/
-                ),
+                    child: Image.asset('assets/PARK IT LOGO.png')),
               ),
             ),
             Padding(

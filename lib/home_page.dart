@@ -14,17 +14,17 @@ class _HomePageState extends State<HomePage> {
       ),
       body: Center(
         child: Container(
-          height: 80,
-          width: 150,
+          height: 60,
+          width: 200,
           decoration: BoxDecoration(
-              color: Colors.blue, borderRadius: BorderRadius.circular(10)),
+              color: Colors.green, borderRadius: BorderRadius.circular(10)),
           child: FlatButton(
             onPressed: () {
               Navigator.pop(context);
             },
             child: Text(
               'Welcome',
-              style: TextStyle(color: Colors.white, fontSize: 25),
+              style: TextStyle(color: Colors.white, fontSize: 22),
             ),
           ),
         ),
