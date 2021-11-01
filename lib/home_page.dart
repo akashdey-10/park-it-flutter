@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/login_page.dart';
 
 class HomePage extends StatefulWidget {
   @override
-  _HomePageState createState() => _HomePageState();
+  _homePageState createState() => _homePageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _homePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
